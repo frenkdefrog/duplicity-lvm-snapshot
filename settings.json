@@ -1,0 +1,19 @@
+{
+    "backupdir": "/mnt/backupdir",
+    "rcloneshare":"onedrivebusiness",
+    "onedir": "/mnt/microsoftonedrive",
+    "archive": "/var/cache/duplicity",
+    "templv": "/dev/data/duplicity_tmp",
+    "nice": "nice -n 19",
+    "passwd": "{{ password }}",
+    "snapsize":"5G",
+    "volsize":500,
+    "full":"30",
+    "keep":"5",
+    "lv":[
+        "/dev/data/data_1",
+        "/dev/data/data_2",
+        "/dev/data/data_3",
+        "/dev/data/data_4"
+    ]
+}
